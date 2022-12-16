@@ -36,6 +36,8 @@ public class User {
 	public String toString() {
 		return "Student [id=" + id + ", name=" + name + ", city=" + city + "]";
 	}
+	public User() {
+	}
 	
 	
 	
