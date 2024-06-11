@@ -11,7 +11,7 @@ import com.example.demo.model.User;
 @Repository
 public interface UserRepository extends JpaRepository<User, Object>  {
 
-	@Query(value= "select * from shreyas c where city=?1" , nativeQuery = true )
+	@Query(value= "select * from Shreyas c where city=?1" , nativeQuery = true )
 	
 	public List<User> getUserByCity(String city);
 	
